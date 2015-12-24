@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.ganoro.phing.feature"
+      label="Phing Feature"
+      version="1.0.0.201209221158"
+      provider-name="Roy Ganor">
+
+   <description url="https://github.com/ganoro/phing-eclipse">
+      Eclipse support to edit and run phing build scripts. 
+
+See https://github.com/ganoro/phing-eclipse and www.phing.info/ for more info.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.ganoro.phing.core"
+         download-size="61"
+         install-size="120"
+         version="1.0.0.201209221158"
+         unpack="false"/>
+
+   <plugin
+         id="org.ganoro.phing.launching"
+         download-size="18"
+         install-size="35"
+         version="1.0.0.201209221158"
+         unpack="false"/>
+
+   <plugin
+         id="org.ganoro.phing.ui"
+         download-size="635"
+         install-size="1665"
+         version="1.0.0.201209221158"
+         unpack="false"/>
+
+</feature>
